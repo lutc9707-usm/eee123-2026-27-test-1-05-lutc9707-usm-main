@@ -39,13 +39,14 @@ int main(int argc, char* const argv[]){                 //DO NOT EDIT OR REMOVE
 double formula(int x)                                   //DO NOT EDIT OR REMOVE
 {
     //write your code below
-    double xd = static_cast<double>(x);
-    double x2 = xd * xd;
-    double x3 = x2 * xd;
-    double x4 = x2 * x2;
+    // y = (3/5) * (6x^4 - 9x^3 - 3x - 8) / (|9 - x^3| + sqrt(4x^2 + 13))
+    const double xd = static_cast<double>(x);
+    const double x2 = xd * xd;
+    const double x3 = x2 * xd;
+    const double x4 = x2 * x2;
 
-    double numerator = 6.0 * x4 - 9.0 * x3 - 3.0 * xd - 8.0;
-    double denominator = std::fabs(9.0 - x3) + std::sqrt(4.0 * x2 + 13.0);
+    const double numerator = 6.0 * x4 - 9.0 * x3 - 3.0 * xd - 8.0;
+    const double denominator = std::fabs(9.0 - x3) + std::sqrt(4.0 * x2 + 13.0);
 
     return (3.0 / 5.0) * numerator / denominator;
 }
