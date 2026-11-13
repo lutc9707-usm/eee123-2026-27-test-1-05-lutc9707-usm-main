@@ -52,7 +52,7 @@ If you deleted or broke a file, you may delete this repository and start again, 
 ### Student's details
 Declaration: I have read all the instructions above.
 
-**Name**: Write your full-name here\
-**USM Email**: abc123@student.usm.my\
-**GitHub Username**: abc123\
-**Matric No.**: 987654
+**Name**: LU TIANCI\
+**USM Email**: lutc9707@student.usm.my\
+**GitHub Username**: lutc9707-usm\
+**Matric No.**: 26105668

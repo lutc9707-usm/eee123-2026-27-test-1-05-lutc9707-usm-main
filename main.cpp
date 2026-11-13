@@ -38,12 +38,14 @@ int main(int argc, char* const argv[]){                 //DO NOT EDIT OR REMOVE
 
 double formula(int x)                                   //DO NOT EDIT OR REMOVE
 {
-    double result = 0;
-    
+    //write your code below
     double xd = static_cast<double>(x);
-    double numerator = 6.0 * xd * xd * xd * xd - 3.0 * xd - 8.0;
-    double denominator = std::fabs(9.0 - xd * xd * xd) + std::sqrt(4.0 * xd * xd + 13.0);
-    result = (3.0 / 5.0) * (numerator / denominator);//write your code below
+    double x2 = xd * xd;
+    double x3 = x2 * xd;
+    double x4 = x2 * x2;
 
-    return result;
+    double numerator = 6.0 * x4 - 9.0 * x3 - 3.0 * xd - 8.0;
+    double denominator = std::fabs(9.0 - x3) + std::sqrt(4.0 * x2 + 13.0);
+
+    return (3.0 / 5.0) * numerator / denominator;
 }
