@@ -1,0 +1,7 @@
+#NRMN: DO NOT EDIT/DELETE THIS FILE
+# Files made by the compiler
+*.exe
+*.o
+output
+# VS Code settings (keep them on your own computer)
+.vscode/

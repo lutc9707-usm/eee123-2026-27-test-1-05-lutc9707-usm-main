@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "eee123-2026-27"
+assignment: "test-1-05"
+owner:
+  username: "lutc9707-usm"
+  id: 344307721
+  accepted_at: "2026-11-13T07:32:20Z"
+source:
+  owner: "USMEEE123"
+  owner_id: 115000587
+  repo: "TEMPLATE-TEST1Q4-SET05"
+  branch: "main"
